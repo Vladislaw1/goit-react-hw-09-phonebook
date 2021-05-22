@@ -1,0 +1,13 @@
+.btnDelete{
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.contactListItem{
+    display: flex;
+    justify-content: center;
+    color: white;
+    color: silver;
+}

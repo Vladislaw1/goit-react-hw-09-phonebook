@@ -1,0 +1,27 @@
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: rgb(0, 126, 165);
+    text-shadow: 0 0 10px rgb(0, 126, 165);
+}
+.link:not(:last-child){
+    margin-right: 20px;
+}
+.activeLink{
+    position: relative;
+    color: rgb(0, 126, 165);
+    text-shadow: 0 0 10px rgb(0, 126, 165);
+}
+
+.activeLink:after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: rgb(0, 126, 165);
+    box-shadow: 0 0 10px rgb(0, 126, 165);
+}

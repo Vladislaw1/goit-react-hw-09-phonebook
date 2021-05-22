@@ -1,0 +1,10 @@
+.contactList{
+    border: 2px solid white;
+    width: -moz-fit-content;
+    padding: 10px;
+    height: 200px;
+    overflow: auto;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}

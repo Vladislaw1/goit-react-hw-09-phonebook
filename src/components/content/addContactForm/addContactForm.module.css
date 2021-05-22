@@ -1,0 +1,28 @@
+.formAdd {
+    margin: 20px auto 0;
+    padding: 15px;
+    width: fit-content;
+    text-align: center;
+    border: 2px solid gray;
+}
+.label{
+color: white;
+}
+.input{
+    margin-bottom: 10px;
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+.btnAdd{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: auto;
+}
